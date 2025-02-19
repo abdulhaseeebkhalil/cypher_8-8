@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Encryption and Decryption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Matrix Encryption and Decryption</h1>
+        
+        <div id="matrix-input">
+            <h3>Enter your 8x8 matrix (8 integers per row):</h3>
+            <div id="matrix-rows">
+                <!-- Matrix rows will be added dynamically -->
+            </div>
+        </div>
+        
+        <button id="submit-btn">Submit Matrix</button>
+        <div id="encryption-options" class="hidden">
+            <h3>Choose an option:</h3>
+            <button id="encrypt-btn">Encrypt</button>
+            <button id="decrypt-btn">Decrypt</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h3>Result:</h3>
+            <pre id="result-output"></pre>
+        </div>
+
+        <div id="decrypt-options" class="hidden">
+            <h3>Do you want to decrypt the matrix?</h3>
+            <button id="decrypt-yes">Yes</button>
+            <button id="decrypt-no">No</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
